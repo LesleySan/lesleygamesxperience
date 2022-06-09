@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Water+Brush&display=swap');
+
+
+*{
+    font-family: 'Comic Neue', cursive;
+}
+
+.tm-icon{
+    width: 30px ;
+    height: 30px ;
+}
+
+.cor-black{
+    color: black;
+}
+
+#bg-fundo{
+    background-image: url(https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870);
+    background-repeat: no-repeat; 
+    background-size: cover;
+        
+      
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;}
+
+.cor-title{
+    color: rgb(182, 127, 255);
+}    
+.rodape{
+    background-color: rgba(196, 42, 126, 0.801);
+}
+
+#menu{
+    
+    display: flex;
+    flex-direction: column;
+}
+#menu li {
+    display: inline;
+    padding: 100px;
+}
+#menu a {
+    text-decoration: none;
+ color:black
+}
+#menu a li:hover {
+ color:pink
+}
+/*logo*/
+.logo-xp{
+    font-weight: 600;
+    font-size: 30px;
+    color:black
+}
+.logo{
+    font-weight: 600;
+    font-size: 50px;
+    color:rgb(46, 3, 46)
+    
+}
+#fontestyle{
+    font-family: 'Water Brush', cursive;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column
+}
+
+.video{
+    display: flex;
+    justify-content: center
+}
+/* CONTACT */
+
+.contact-fundo{
+    background-image: url(https://images.unsplash.com/photo-1500995617113-cf789362a3e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  color: white;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
